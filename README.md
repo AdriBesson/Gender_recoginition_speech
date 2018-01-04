@@ -23,8 +23,8 @@ Jupyter notebooks for the project "Gender recognition by voice" for the EPFL [St
     ```
 
 ## Usage
-1. Run the different notebooks: the notebooks follow the process described in ``Report_Besson_Lefebvre_Kaklamanos.pdf'':
-  .* Gender recognition by voice - data analysis.ipynb: Exploratory data analysis described in Chapter 3
-  .* Gender recognition by voice - A first intuitive approach.ipynb: Classification using only the fundamental frequency described in Chapter 4
-  .* Gender recognition by voice - Classification with 80-20 split.ipynb: Classification using all the features and a 80/20 split of the dataset. The training set is used for parameter selection and the test set is used to choose the best model. Due to a high variance of the classification error with respect to the split of the dataset, this approach is not able to identify the best model. Described in Chapter 4
-  .* Gender recognition by voice - Classification with 50-50 split.ipynb: Classification using all the features and a 50/50 split of the dataset. The training set is used for parameter selection and the test set is used to choose the best model. In order to reduce the variance of the error, we use 5-fold cross validated scores on the test set. This method is able to identify the best model. Described in Chapter 5
+1. Run the different notebooks: the notebooks follow the process described in ''Report_Besson_Lefebvre_Kaklamanos.pdf'':
+  * `Gender recognition by voice - data analysis.ipynb`: Exploratory data analysis described in Chapter 3
+  * `Gender recognition by voice - A first intuitive approach.ipynb`: Classification using only the fundamental frequency described in Chapter 4
+  * `Gender recognition by voice - Classification with 80-20 split.ipynb`: Classification using all the features and a 80/20 split of the dataset. Training set is used for parameter selection test set used for model comparison. Due to a high variance of the classification error with respect to the split of the dataset, this approach is not able to identify the best model. Described in Chapter 4
+  * `Gender recognition by voice - Classification with 50-50 split.ipynb`: Classification using all the features and a 50/50 split of the dataset. Training set is used for parameter selection test set used for model comparison. To reduce the variance, we use 5-fold cross validated scores on the test set. Described in Chapter 5
